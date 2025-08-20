@@ -2,4 +2,4 @@ steps:
 - name: 'gcr.io/cloud-builders/gcloud'
   args: ['gsutil', '-m', 'cp', '-r', '.', 'gs://srcprojectfiles/telecom_customer_data/']
 options:
-      logs_bucket: 'gs://srcprojectfiles/my-custom-logs-bucket'
+      logging: CLOUD_LOGGING_ONLY
