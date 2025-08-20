@@ -1,0 +1,3 @@
+steps:
+- name: 'gcr.io/cloud-builders/gcloud'
+  args: ['gsutil', '-m', 'cp', '-r', '.', 'gs://srcprojectfiles/telecom_customer_data/']
