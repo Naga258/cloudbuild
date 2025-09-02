@@ -1,6 +1,6 @@
 steps:
 - name: "gcr.io/google.com/cloudsdktool/cloud-sdk"
   entrypoint: "bash"
-  args: ['gsutil', '-m', 'cp', '-r', '.', 'gs://srcprojectfiles/telecom_customer_data/']
+  args: ['gsutil', '-m', 'cp', '-r', '.', 'gs://srcprojectfiles/etlproject_srcfiles/']
 options:
       logging: CLOUD_LOGGING_ONLY
